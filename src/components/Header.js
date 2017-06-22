@@ -1,8 +1,8 @@
 'use-strict';
 
-import React from 'react';
+import React, { Component } from 'react';
 
-class Header extends React.Component {
+class Header extends Component {
 	render() {
 		return(
 			<nav className="navbar navbar-light">
